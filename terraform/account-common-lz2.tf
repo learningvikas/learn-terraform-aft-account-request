@@ -4,7 +4,7 @@ module "Common_Serv_Low_Env" {
   control_tower_parameters = {
     AccountEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
     AccountName               = "account-lz2-common"
-    ManagedOrganizationalUnit = "SharedServices-OU"
+    ManagedOrganizationalUnit = "SharedService-OU"
     SSOUserEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
