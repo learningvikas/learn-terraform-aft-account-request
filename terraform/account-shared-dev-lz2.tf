@@ -2,10 +2,10 @@ module "Shared_Dev" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "awsgcpazureoci+account-lz2-shared-dev@gmail.com"
-    AccountName               = "account-lz2-shared-dev"
+    AccountEmail              = "awsgcpazureoci+account-lz2-shared-dev-01@gmail.com"
+    AccountName               = "account-lz2-shared-dev-01"
     ManagedOrganizationalUnit = "Infra"
-    SSOUserEmail              = "awsgcpazureoci+account-lz2-shared-dev@gmail.com"
+    SSOUserEmail              = "awsgcpazureoci+account-lz2-shared-dev-01@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
