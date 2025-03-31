@@ -1,11 +1,11 @@
-module "Infra_CommonServices" {
+module "Common_Serv_Low_Env" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
+    AccountEmail              = "awsazuregcpoci+account-lz2-common@gmail.com"
     AccountName               = "account-lz2-common"
-    ManagedOrganizationalUnit = "SharedService-OU"
-    SSOUserEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
+    ManagedOrganizationalUnit = "SharedServices-OU"
+    SSOUserEmail              = "awsazuregcpoci+account-lz2-common@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
@@ -23,5 +23,5 @@ module "Infra_CommonServices" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Infra_CommonServices"
+  account_customizations_name = "Common_Serv_Low_Env"
 }
