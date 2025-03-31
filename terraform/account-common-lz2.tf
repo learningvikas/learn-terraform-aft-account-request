@@ -4,7 +4,7 @@ module "Infra_CommonServices" {
   control_tower_parameters = {
     AccountEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
     AccountName               = "account-lz2-common"
-    ManagedOrganizationalUnit = "Infra-OU"
+    ManagedOrganizationalUnit = "SharedService-OU"
     SSOUserEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
