@@ -2,10 +2,10 @@ module "Common_Serv" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
-    AccountName               = "account-lz2-common"
+    AccountEmail              = "awzgcpazureoci+account-lz2-common_02@gmail.com"
+    AccountName               = "account-lz2-common_02"
     ManagedOrganizationalUnit = "SharedService-OU"
-    SSOUserEmail              = "awzgcpazureoci+account-lz2-common@gmail.com"
+    SSOUserEmail              = "awzgcpazureoci+account-lz2-common_02@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
