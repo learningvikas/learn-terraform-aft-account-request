@@ -1,4 +1,4 @@
-module "Common_Serv_Low_Env" {
+module "Common_Serv" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -23,5 +23,5 @@ module "Common_Serv_Low_Env" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Common_Serv_Low_Env"
+  account_customizations_name = "Common_Serv"
 }
