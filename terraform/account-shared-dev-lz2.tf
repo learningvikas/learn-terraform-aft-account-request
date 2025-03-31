@@ -4,7 +4,7 @@ module "Shared_Dev" {
   control_tower_parameters = {
     AccountEmail              = "awsgcpazureoci+account-lz2-shared-dev@gmail.com"
     AccountName               = "account-lz2-shared-dev"
-    ManagedOrganizationalUnit = "SharedService"
+    ManagedOrganizationalUnit = "Infra"
     SSOUserEmail              = "awsgcpazureoci+account-lz2-shared-dev@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
